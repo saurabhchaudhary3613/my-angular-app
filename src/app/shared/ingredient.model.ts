@@ -8,5 +8,4 @@ export class Ingredient {
     // }
     // short way
     constructor(public name: string, public amount: number) {}
-
 }
