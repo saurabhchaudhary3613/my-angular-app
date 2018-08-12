@@ -1,0 +1,53 @@
+//---- Useful links
+
+1) More about typescript + 3rd party
+
+- https://www.thepolyglotdeveloper.com/2017/03/javascript-libraries-in-a-typescript-application-revisited/
+
+2) More about augury
+- https://augury.angular.io/
+
+3) More about structural directives
+ - https://angular.io/guide/structural-directives
+
+4) More about attribute directives
+ - https://angular.io/guide/attribute-directives
+
+
+//---------------------- Angular Essentials
+
+
+1) //-------How to add lodash
+
+ - npm install lodash --save
+ - npm install --save @types/lodash
+ - Now Use lodash methods in  components
+ - import { random } from 'lodash';
+ - onIncrease() {
+ this.number = random(1, 10);
+  }
+
+2) //------------ How to add bootstrap in your project
+
+ - npm install --save bootstrap
+ - refresh node node modules in your IDE
+ - update angular.cli.json file
+ - "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css" ],
+ - stop ng server and run again
+
+3) Debugging Angular app
+ - open developer tool, go to source and find webpack dir it contais typescript sourcecode of our application
+ - put breakpoints and debug as normal js
+ - Augury - go to https://augury.angular.io/
+ - install Angular augury its a add ones for angular app and  makes debugging easy
+ 
+ 4) Directives
+  - Attribute directives
+  - Structural directives
+ 
+ 
+ 
+ 
+
+ 
